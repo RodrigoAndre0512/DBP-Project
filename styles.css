@@ -1,0 +1,67 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(Imagen1.jpg); /* reemplaza por tu imagen */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+}
+
+.login {
+  border: 1px solid white;
+  padding: 5px 15px;
+}
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.icon {
+  font-size: 34px; /* íconos más grandes */
+  cursor: pointer;
+}
+.hero-content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: white;
+}
+
+.explore-button {
+  font-size: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.explore-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mission-title {
+  font-size: 70px;
+  margin: 0;
+}
